@@ -297,3 +297,50 @@ Frontend sẽ chạy tại: `http://localhost:5173`
 5. ✅ Kết nối wallet và mint!
 
 **IPFS và AI Service là optional - không cần thiết để mint NFT!**
+
+## 🌐 Upload lên GitHub
+
+Sau khi setup xong, bạn có thể chia sẻ project lên GitHub:
+
+### 1. Tạo Repository trên GitHub
+
+1. Vào https://github.com/new
+2. **Repository name**: `ai-nft-marketplace-sui`
+3. **Description**: `AI Model NFT Marketplace on Sui Blockchain`
+4. **Public/Private**: Tùy chọn
+5. **Add README**: Bỏ tích (đã có sẵn)
+6. Click **"Create repository"**
+
+### 2. Push Code lên GitHub
+
+```bash
+# Chạy script tự động (Windows)
+push-to-github.bat
+
+# Hoặc manual:
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git branch -M main
+git push -u origin main
+```
+
+### 3. Tạo Release
+
+Sau khi push thành công, bạn có thể tạo release để chia sẻ:
+
+1. Vào **Releases** tab trên GitHub
+2. Click **"Create a new release"**
+3. **Tag version**: `v1.0.0`
+4. **Release title**: `First Release`
+5. **Description**: Mô tả tính năng
+6. Click **"Publish release"**
+
+## 🎉 Hoàn thành!
+
+Project của bạn đã sẵn sàng trên GitHub! 🎊
+
+- ✅ Code được backup trên cloud
+- ✅ Có thể chia sẻ với cộng đồng
+- ✅ Dễ dàng collaborate với người khác
+- ✅ Professional project presentation
+
+**Link GitHub**: `https://github.com/YOUR_USERNAME/YOUR_REPO`
