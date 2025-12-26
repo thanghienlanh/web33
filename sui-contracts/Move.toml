@@ -1,0 +1,10 @@
+[package]
+name = "ai_model_nft"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+
+[addresses]
+ai_model_nft = "0x0"

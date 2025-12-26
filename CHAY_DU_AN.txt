@@ -1,0 +1,62 @@
+cd backend && npm run dev========================================
+  LỆNH CHẠY DỰ ÁN - NGẮN GỌN
+========================================
+
+⚠️ LƯU Ý: Mở 3 terminal riêng!
+
+========================================
+TERMINAL 1: BACKEND
+========================================
+
+cd backend
+npm run dev
+
+→ Chạy tại: http://localhost:3001
+
+========================================
+TERMINAL 2: FRONTEND
+========================================
+
+cd frontend
+npm run dev
+
+→ Chạy tại: http://localhost:5173
+
+========================================
+TERMINAL 3: AI SERVICE (Optional)
+========================================
+
+cd ai-service
+python main.py
+
+→ Chạy tại: http://localhost:8000
+
+========================================
+TRUY CẬP
+========================================
+
+Mở browser: http://localhost:5173
+
+========================================
+LỆNH NHANH NHẤT (Copy & Paste)
+========================================
+
+Terminal 1:
+cd backend && npm run dev
+
+Terminal 2:
+cd frontend && npm run dev
+
+Terminal 3 (Optional):
+cd ai-service && python main.py
+
+========================================
+LỆNH CÀI ĐẶT (Chỉ cần chạy 1 lần)
+========================================
+
+cd backend && npm install
+cd frontend && npm install
+cd ai-service && pip install -r requirements-minimal.txt
+
+========================================
+

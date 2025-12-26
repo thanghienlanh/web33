@@ -1,0 +1,89 @@
+========================================
+  LỆNH CHẠY DỰ ÁN - WINDOWS CMD
+========================================
+
+⚠️ LƯU Ý: KHÔNG copy comment (#) vào lệnh!
+
+========================================
+BƯỚC 1: CHẠY BACKEND
+========================================
+
+Mở Terminal 1:
+
+cd backend
+npm install
+npm run dev
+
+Backend sẽ chạy tại: http://localhost:3001
+
+========================================
+BƯỚC 2: CHẠY FRONTEND
+========================================
+
+Mở Terminal 2 (terminal mới):
+
+cd frontend
+npm install
+npm run dev
+
+Frontend sẽ chạy tại: http://localhost:5173
+
+========================================
+BƯỚC 3: (OPTIONAL) CHẠY AI SERVICE
+========================================
+
+Mở Terminal 3 (terminal mới):
+
+cd ai-service
+pip install -r requirements.txt
+python main.py
+
+AI Service sẽ chạy tại: http://localhost:8000
+
+========================================
+TRUY CẬP
+========================================
+
+Mở browser: http://localhost:5173
+
+========================================
+LỆNH NHANH (KHÔNG CÓ COMMENT)
+========================================
+
+Terminal 1:
+cd backend
+npm run dev
+
+Terminal 2:
+cd frontend
+npm run dev
+
+Terminal 3 (Optional - AI Service):
+cd ai-service
+python main.py
+
+========================================
+CÁCH NHANH NHẤT (Windows)
+========================================
+
+Double-click: start-core.bat
+(Hoặc: start-all.bat để chạy cả AI Service)
+
+========================================
+LỖI THƯỜNG GẶP
+========================================
+
+1. Lỗi "Invalid tag name #":
+   → KHÔNG copy comment (#) vào lệnh
+   → Chỉ chạy: npm install (không có #)
+
+2. Lỗi "cannot find path":
+   → Đảm bảo đang ở đúng thư mục
+   → Dùng: cd backend (không phải cd backend/backend)
+
+3. Port đã được sử dụng:
+   → Tắt ứng dụng đang dùng port
+   → Hoặc đổi port trong config
+
+========================================
+
